@@ -1,0 +1,6 @@
+<launch>
+  <!-- Launch YOLO detection, checkout logic, and TTS nodes -->
+  <node pkg="self_checkout_system" type="yolo_detect_node.py" name="yolo_detect" output="screen"/>
+  <node pkg="self_checkout_system" type="checkout_logic_node.py" name="checkout_logic" output="screen"/>
+  <node pkg="self_checkout_system" type="tts_node.py" name="tts" output="screen"/>
+</launch>

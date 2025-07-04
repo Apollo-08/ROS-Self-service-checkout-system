@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>self_checkout_system</name>
+  <version>0.1.0</version>
+  <description>ROS-based self-checkout system with Streamlit front-end</description>
+  <maintainer email="user@example.com">User</maintainer>
+  <license>MIT</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <depend>rospy</depend>
+  <depend>std_msgs</depend>
+  <depend>sensor_msgs</depend>
+  <depend>cv_bridge</depend>
+  <depend>sound_play</depend>
+
+  <export>
+    <build_type>catkin</build_type>
+  </export>
+</package>

@@ -1,0 +1,13 @@
+step1:
+cd ~/catkin_ws
+step2:
+catkin_make
+step3:
+source devel/setup.bash
+step4:
+roslaunch self_checkout_system self_checkout.launch
+step5:
+open a new terminal
+cd ~/catkin_ws/src/self_checkout_system/webapp
+step6
+streamlit run app.py
